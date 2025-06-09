@@ -1,0 +1,13 @@
+<!-- index.html -->
+<html>
+  <body>
+    <form method="GET" action="/search">
+      <input type="text" name="query">
+      <button type="submit">Search</button>
+    </form>
+    <div id="results">
+      <!-- User input directly inserted: vulnerable to HTML Injection -->
+      Results for: <span id="output">%QUERY%</span>
+    </div>
+  </body>
+</html>
