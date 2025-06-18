@@ -9,7 +9,7 @@
     <dependency>
       <groupId>commons-collections</groupId>
       <artifactId>commons-collections</artifactId>
-      <version>3.2.1</version> <!-- vulnerable to deserialization -->
+      <version>3.2.2</version> <!-- vulnerable to deserialization -->
     </dependency>
   </dependencies>
 </project>
